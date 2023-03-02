@@ -1,0 +1,9 @@
+id: 38FAB272-0DCC-4AF1-B262-8843AFA8647F
+name: Sample Maps
+repository: https://github.com/encounterplus/czepeku
+package: https://github.com/encounterplus/czepeku-maps/releases/latest/download/czepeku-maps.json
+authors:
+  - name: Cze&Peku
+    url: https://www.czepeku.com
+media:
+  - cover.jpg

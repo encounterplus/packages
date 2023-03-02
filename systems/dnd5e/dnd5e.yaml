@@ -1,0 +1,12 @@
+id: "dnd5e"
+name: Dungeons & Dragons 5E
+repository: https://github.com/encounterplus/dnd5e
+package: https://github.com/encounterplus/dnd5e/releases/latest/download/dnd5e.json
+authors:
+  - name: Encounter+ Dev Team
+media: 
+  - cover.jpg
+  - banner.jpg
+content: >
+  Dungeons & Dragons (commonly abbreviated as D&D or DnD)[is a fantasy tabletop role-playing game (RPG) originally designed by Gary Gygax and Dave Arneson.[3][4][5] 
+  The game was first published in 1974 by Tactical Studies Rules, Inc. (TSR).[5] It has been published by Wizards of the Coast (now a subsidiary of Hasbro) since 1997. 
