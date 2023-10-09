@@ -148,6 +148,9 @@ const main = async () => {
     fs.writeFileSync(path.join(".", "dist", "packages.json"), jsonData)
     console.log('JSON data is saved.')
 
+    fs.copyFileSync(path.join(".", "CNAME"), path.join(".", "dist", "CNAME"))
+    console.log('CNAME copied.')
+
     // copy assets to dist
     // copyRecursiveSync("./assets/", "./dist/assets/");
 
