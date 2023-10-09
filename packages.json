@@ -6,8 +6,8 @@
     "content": "Dungeons & Dragons (commonly abbreviated as D&D or DnD)[is a fantasy tabletop role-playing game (RPG) originally designed by Gary Gygax and Dave Arneson.[3][4][5]  The game was first published in 1974 by Tactical Studies Rules, Inc. (TSR).[5] It has been published by Wizards of the Coast (now a subsidiary of Hasbro) since 1997. \n",
     "repository": "https://github.com/encounterplus/dnd5e",
     "description": "World's Greatest Roleplaying Game.",
-    "version": "0.9.2",
-    "download": "https://github.com/encounterplus/dnd5e/releases/download/0.9.2/dnd5e.system",
+    "version": "0.9.3",
+    "download": "https://github.com/encounterplus/dnd5e/releases/download/0.9.3/dnd5e.system",
     "authors": [
       {
         "name": "Encounter+ Dev Team"
