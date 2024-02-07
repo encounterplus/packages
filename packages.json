@@ -17,5 +17,23 @@
       "https:/packages.encounter.plus/assets/systems/dnd5e/cover.jpg",
       "https:/packages.encounter.plus/assets/systems/dnd5e/banner.jpg"
     ]
+  },
+  {
+    "id": "shadowdark",
+    "name": "Shadowdark",
+    "type": "system",
+    "content": "Shadowdark RPG is a fantasy adventure game where you and your companions delve into buried ruins, lost cities, spider-infested forests, and even fearsome dragon lairs in search of gold and glory.\n",
+    "repository": "https://github.com/encounterplus/shadowdark",
+    "description": "Shadowdark RPG is a fantasy adventure game where you and your companions delve into buried ruins, lost cities, spider-infested forests, and even fearsome dragon lairs in search of gold and glory.",
+    "version": "0.9.6",
+    "download": "https://github.com/encounterplus/shadowdark/releases/download/0.9.6/shadowdark.system",
+    "authors": [
+      {
+        "name": "Encounter+ Dev Team"
+      }
+    ],
+    "media": [
+      "https:/packages.encounter.plus/assets/systems/shadowdark/banner.jpg"
+    ]
   }
 ]
