@@ -47,6 +47,31 @@
     ]
   },
   {
+    "id": "ose",
+    "name": "Old-School Essentials",
+    "type": "system",
+    "content": "\"A role-playing game of fantastic adventure, where players work together to overcome fearsome monsters, sinister plots, and deadly traps in search of wealth, power, and glory.\n",
+    "repository": "https://github.com/encounterplus/ose/",
+    "description": "A role-playing game of fantastic adventure, where players work together to overcome fearsome monsters, sinister plots, and deadly traps in search of wealth, power, and glory.",
+    "version": "0.9.1",
+    "download": "https://github.com/encounterplus/ose/releases/download/0.9.1/ose.system",
+    "compatibility": {
+      "minimum": "5.0.0+3848"
+    },
+    "website": "https://necroticgnome.com/pages/about-old-school-essentials",
+    "authors": [
+      {
+        "name": "Necrotic Gnome"
+      },
+      {
+        "name": "Encounter+ Dev Team"
+      }
+    ],
+    "media": [
+      "https:/packages.encounter.plus/assets/systems/ose/banner.jpg"
+    ]
+  },
+  {
     "id": "pf2e",
     "name": "Pathfinder 2E",
     "type": "system",
