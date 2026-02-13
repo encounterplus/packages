@@ -47,6 +47,31 @@
     ]
   },
   {
+    "id": "pathfinder",
+    "name": "Pathfinder 2E",
+    "type": "system",
+    "content": "Easier to learn and faster to play, with deep character customization options that let you build the perfect character.\n",
+    "repository": "https://github.com/encounterplus/pf2e",
+    "description": "Easier to learn and faster to play, with deep character customization options that let you build the perfect character.",
+    "version": "0.8.4",
+    "download": "https://github.com/encounterplus/pf2e/releases/download/0.8.4/pf2e.system",
+    "compatibility": {
+      "minimum": "5.0.0+4000"
+    },
+    "website": "https://paizo.com/pathfinder",
+    "authors": [
+      {
+        "name": "Paizo"
+      },
+      {
+        "name": "Encounter+ Dev Team"
+      }
+    ],
+    "media": [
+      "https:/packages.encounter.plus/assets/systems/pf2e/banner.jpg"
+    ]
+  },
+  {
     "id": "shadowdark",
     "name": "Shadowdark",
     "type": "system",
