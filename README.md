@@ -1,3 +1,14 @@
 # Encounter+ Central Package Repository
 
-TODO: how to add new systems and modules
+
+## Make
+
+```
+npm run make
+```
+
+### Deploy
+
+```
+npm run deploy
+```

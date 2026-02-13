@@ -1,0 +1,12 @@
+id: "ose"
+name: Old-School Essentials
+repository: https://github.com/encounterplus/ose/
+package: https://github.com/encounterplus/ose/releases/latest/download/manifest.json
+website: "https://necroticgnome.com/pages/about-old-school-essentials"
+authors:
+  - name: Necrotic Gnome
+  - name: Encounter+ Dev Team
+media: 
+  - banner.jpg
+content: >
+  "A role-playing game of fantastic adventure, where players work together to overcome fearsome monsters, sinister plots, and deadly traps in search of wealth, power, and glory.

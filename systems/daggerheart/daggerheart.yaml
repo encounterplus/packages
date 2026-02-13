@@ -1,0 +1,12 @@
+id: "daggerheart"
+name: Daggerheart
+repository: https://github.com/encounterplus/daggerheart
+package: https://github.com/encounterplus/daggerheart/releases/latest/download/manifest.json
+website: https://www.daggerheart.com
+authors:
+  - name: Darrington Press
+  - name: Encounter+ Dev Team
+media: 
+  - banner.jpg
+content: >
+  Daggerheart is a collaborative fantasy roleplaying game of incredible magic and heroic adventure.

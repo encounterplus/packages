@@ -1,0 +1,12 @@
+id: "shadowdark"
+name: Shadowdark
+repository: https://github.com/encounterplus/shadowdark
+package: https://github.com/encounterplus/shadowdark/releases/latest/download/manifest.json
+website: https://www.thearcanelibrary.com/pages/shadowdark
+authors:
+  - name: The Arcane Library
+  - name: Encounter+ Dev Team
+media: 
+  - banner.jpg
+content: >
+  Shadowdark RPG is a fantasy adventure game where you and your companions delve into buried ruins, lost cities, spider-infested forests, and even fearsome dragon lairs in search of gold and glory.

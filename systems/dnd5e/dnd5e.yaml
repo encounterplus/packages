@@ -1,7 +1,7 @@
 id: "dnd5e"
 name: Dungeons & Dragons 5E
 repository: https://github.com/encounterplus/dnd5e
-package: https://github.com/encounterplus/dnd5e/releases/latest/download/dnd5e.json
+package: https://github.com/encounterplus/dnd5e/releases/latest/download/manifest.json
 authors:
   - name: Encounter+ Dev Team
 media: 

@@ -67,7 +67,11 @@ function createPackage(definition, manifest) {
     pkg.version = manifest.version;
     pkg.download = manifest.download;
 
-    pkg.website = manifest.website;
+    if(manifest.compatibility) {
+        pkg.compatibility = manifest.compatibility;
+    }
+
+    pkg.website = definition.website ?? manifest.website;
 
     if(definition.authors) {
         pkg.authors = definition.authors;
@@ -138,7 +142,7 @@ const main = async () => {
     // create json data from packages
     let jsonData = JSON.stringify(packages, null, 2);
 
-    console.log(packages);
+    // console.log(packages);
 
     // create dist directory
     if(!fs.existsSync(distPath)) {
@@ -146,7 +150,7 @@ const main = async () => {
     }
 
     fs.writeFileSync(path.join(".", "dist", "packages.json"), jsonData)
-    console.log('JSON data is saved.')
+    console.log('JSON data saved.')
 
     fs.copyFileSync(path.join(".", "CNAME"), path.join(".", "dist", "CNAME"))
     console.log('CNAME copied.')

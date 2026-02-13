@@ -1,0 +1,12 @@
+id: "pf2e"
+name: Pathfinder 2E
+repository: https://github.com/encounterplus/pf2e
+package: https://github.com/encounterplus/pf2e/releases/latest/download/manifest.json
+website: https://paizo.com/pathfinder
+authors:
+  - name: Paizo
+  - name: Encounter+ Dev Team
+media: 
+  - banner.jpg
+content: >
+  Easier to learn and faster to play, with deep character customization options that let you build the perfect character.
