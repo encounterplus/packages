@@ -28,7 +28,7 @@
     "id": "dnd5e",
     "name": "Dungeons & Dragons 5E",
     "type": "system",
-    "content": "Dungeons & Dragons (commonly abbreviated as D&D or DnD)[is a fantasy tabletop role-playing game (RPG) originally designed by Gary Gygax and Dave Arneson.[3][4][5]  The game was first published in 1974 by Tactical Studies Rules, Inc. (TSR).[5] It has been published by Wizards of the Coast (now a subsidiary of Hasbro) since 1997. \n",
+    "content": "Gather your friends, create unique heroes, and step into a living fantasy world filled with magic, mystery, and limitless possibilities.\n",
     "repository": "https://github.com/encounterplus/dnd5e",
     "description": "World's Greatest Roleplaying Game.",
     "version": "0.9.12",
@@ -119,6 +119,24 @@
     ],
     "media": [
       "https:/packages.encounter.plus/assets/systems/shadowdark/banner.jpg"
+    ]
+  },
+  {
+    "id": "AA9B0CA6-E75D-4781-8CA8-CA1DE5B88AB0",
+    "name": "Example Module",
+    "type": "module",
+    "content": "This is just an example module.\n",
+    "repository": "https://github.com/encounterplus/example-module",
+    "description": " This is just an example module.",
+    "version": "1.0.0",
+    "download": "https://github.com/encounterplus/example-module/releases/download/1.0.0/example.module",
+    "authors": [
+      {
+        "name": "Encounter+ Dev Team"
+      }
+    ],
+    "media": [
+      "https:/packages.encounter.plus/assets/modules/example/cover.jpg"
     ]
   }
 ]
