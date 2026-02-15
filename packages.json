@@ -130,6 +130,7 @@
     "description": " This is just an example module.",
     "version": "1.0.0",
     "download": "https://github.com/encounterplus/example-module/releases/download/1.0.0/example.module",
+    "website": "https://github.com/encounterplus/example-module/",
     "authors": [
       {
         "name": "Encounter+ Dev Team"
