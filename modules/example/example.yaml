@@ -1,0 +1,11 @@
+id: "AA9B0CA6-E75D-4781-8CA8-CA1DE5B88AB0"
+name: Example Module
+repository: https://github.com/encounterplus/example-module
+package: https://github.com/encounterplus/example-module/releases/latest/download/manifest.json
+website: https://github.com/encounterplus/example-module/
+authors:
+  - name: Encounter+ Dev Team
+media: 
+  - cover.jpg
+content: >
+  This is just an example module.
