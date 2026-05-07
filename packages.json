@@ -78,10 +78,10 @@
     "content": "Easier to learn and faster to play, with deep character customization options that let you build the perfect character.\n",
     "repository": "https://github.com/encounterplus/pf2e",
     "description": "Easier to learn and faster to play, with deep character customization options that let you build the perfect character.",
-    "version": "0.8.4",
-    "download": "https://github.com/encounterplus/pf2e/releases/download/0.8.4/pf2e.system",
+    "version": "0.8.5",
+    "download": "https://github.com/encounterplus/pf2e/releases/download/0.8.5/pf2e.system",
     "compatibility": {
-      "minimum": "5.0.0+4000"
+      "minimum": "5.0.4"
     },
     "website": "https://paizo.com/pathfinder",
     "authors": [
