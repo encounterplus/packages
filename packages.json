@@ -31,8 +31,8 @@
     "content": "Gather your friends, create unique heroes, and step into a living fantasy world filled with magic, mystery, and limitless possibilities.\n",
     "repository": "https://github.com/encounterplus/dnd5e",
     "description": "World's Greatest Roleplaying Game.",
-    "version": "0.9.14",
-    "download": "https://github.com/encounterplus/dnd5e/releases/download/0.9.14/dnd5e.system",
+    "version": "0.9.16",
+    "download": "https://github.com/encounterplus/dnd5e/releases/download/0.9.16/dnd5e.system",
     "compatibility": {
       "minimum": "5.0.5"
     },
