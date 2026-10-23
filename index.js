@@ -52,7 +52,30 @@ async function downloadManifest(url) {
     }
 }
 
-function createPackage(definition, manifest) {
+function resolveRecommends(recommends, definitions) {
+    return recommends.map(recommend => {
+        // fill missing type and manifest from local definition with the same id
+        let target = definitions.find(definition => definition.id === recommend.id);
+
+        let entry = new Object();
+        entry.id = recommend.id;
+        entry.type = recommend.type ?? target?.type;
+        entry.manifest = recommend.manifest ?? target?.package;
+
+        if(recommend.reason) {
+            entry.reason = recommend.reason;
+        }
+
+        if(!entry.type || !entry.manifest) {
+            console.error(`invalid recommendation: ${recommend.id}`);
+            return null;
+        }
+
+        return entry;
+    }).filter(entry => entry != null);
+}
+
+function createPackage(definition, manifest, definitions) {
     // create new package
     let pkg = new Object();
     pkg.id = definition.id;
@@ -76,9 +99,14 @@ function createPackage(definition, manifest) {
     if(definition.authors) {
         pkg.authors = definition.authors;
     } else {
-        manifest.authors;
+        pkg.authors = manifest.authors;
     }
-   
+
+    let recommends = definition.recommends ?? manifest.recommends;
+    if(recommends && recommends.length > 0) {
+        pkg.recommends = resolveRecommends(recommends, definitions);
+    }
+
     return pkg;
 }
 
@@ -109,11 +137,12 @@ const main = async () => {
         if(manifest == null || !manifest.version || !manifest.download ) {
             continue;
         }
+        console.log(`version: ${manifest.version}`)
 
         // console.debug(manifest);
 
         // create package from definition and manifest
-        let pkg = createPackage(definition, manifest);
+        let pkg = createPackage(definition, manifest, definitions);
 
         // copy media
         let media = [];

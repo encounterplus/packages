@@ -1,0 +1,11 @@
+id: "daggerheart-srd"
+name: Daggerheart SRD v2.0
+repository: https://github.com/encounterplus/daggerheart-srd
+package: https://github.com/encounterplus/daggerheart-srd/releases/latest/download/manifest.json
+website: https://github.com/encounterplus/daggerheart-srd"
+authors:
+  - name: Encounter+ Dev Team
+media: 
+  - banner.jpg
+content: >
+  The System Reference Document (SRD) contains Daggerheart rules content you can use and reference to publish content under Creative Commons.
