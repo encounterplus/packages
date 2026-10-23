@@ -6,10 +6,10 @@
     "content": "Daggerheart is a collaborative fantasy roleplaying game of incredible magic and heroic adventure.\n",
     "repository": "https://github.com/encounterplus/daggerheart",
     "description": "Daggerheart is a collaborative fantasy roleplaying game of incredible magic and heroic adventure.",
-    "version": "0.8.1",
-    "download": "https://github.com/encounterplus/daggerheart/releases/download/0.8.1/daggerheart.system",
+    "version": "0.9.0",
+    "download": "https://github.com/encounterplus/daggerheart/releases/download/0.9.0/daggerheart.system",
     "compatibility": {
-      "minimum": "5.0.0+3971"
+      "minimum": "5.1.0"
     },
     "website": "https://www.daggerheart.com",
     "authors": [
@@ -18,6 +18,14 @@
       },
       {
         "name": "Encounter+ Dev Team"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "daggerheart-srd",
+        "type": "module",
+        "manifest": "https://github.com/encounterplus/daggerheart-srd/releases/latest/download/manifest.json",
+        "reason": "Free SRD content like adversaries, domains and equipment."
       }
     ],
     "media": [
@@ -119,6 +127,28 @@
     ],
     "media": [
       "https:/packages.encounter.plus/assets/systems/shadowdark/banner.jpg"
+    ]
+  },
+  {
+    "id": "daggerheart-srd",
+    "name": "Daggerheart SRD v2.0",
+    "type": "module",
+    "content": "The System Reference Document (SRD) contains Daggerheart rules content you can use and reference to publish content under Creative Commons.\n",
+    "repository": "https://github.com/encounterplus/daggerheart-srd",
+    "description": "The System Reference Document (SRD) contains Daggerheart rules content you can use and reference to publish content under Creative Commons.",
+    "version": "1.0.0",
+    "download": "https://github.com/encounterplus/daggerheart-srd/releases/download/1.0.0/daggerheart-srd.module",
+    "compatibility": {
+      "minimum": "5.1.0"
+    },
+    "website": "https://github.com/encounterplus/daggerheart-srd\"",
+    "authors": [
+      {
+        "name": "Encounter+ Dev Team"
+      }
+    ],
+    "media": [
+      "https:/packages.encounter.plus/assets/modules/daggerheart-srd/banner.jpg"
     ]
   },
   {
