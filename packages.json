@@ -136,8 +136,8 @@
     "content": "The System Reference Document (SRD) contains Daggerheart rules content you can use and reference to publish content under Creative Commons.\n",
     "repository": "https://github.com/encounterplus/daggerheart-srd",
     "description": "The System Reference Document (SRD) contains Daggerheart rules content you can use and reference to publish content under Creative Commons.",
-    "version": "1.0.0",
-    "download": "https://github.com/encounterplus/daggerheart-srd/releases/download/1.0.0/daggerheart-srd.module",
+    "version": "1.0.1",
+    "download": "https://github.com/encounterplus/daggerheart-srd/releases/download/1.0.1/daggerheart-srd.module",
     "compatibility": {
       "minimum": "5.1.0"
     },
